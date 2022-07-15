@@ -199,7 +199,6 @@ nav {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-align: center;
-  padding-bottom: 30px;
 }
 .team-list figure {
   width: 270px;
@@ -303,4 +302,91 @@ do header i footer został wykorzystane te same style co do strony głównej*/
 }
 .main-section {
   padding-bottom: 94px;
+}
+.icon-email {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: #757575;
+}
+
+.icon-phone {
+  width: 10px;
+  height: 16px;
+  align-content: center;
+  margin-right: 10px;
+  fill: #24f7d7;
+}
+.icon-phone:hover {
+  fill: #ff1414;
+}
+
+.icon-in-header1:hover {
+  fill: #2196f3;
+}
+.icon-descriptions {
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+}
+.team-socials {
+  width: 20px;
+  height: 20px;
+  margin-left: 12.7px;
+  margin-top: 12px;
+  fill: #cb0d0d;
+}
+.socials-background {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  padding-bottom: 30px;
+  margin-top: 16px;
+}
+.socials-background:hover {
+  background-color: #2196f3;
+}
+.social-list {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.our-clients-background {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+.our-clients-list {
+  display: flex;
+  gap: 30px;
+}
+.our-client-icon {
+  margin-left: 32px;
+  margin-top: 16px;
+  width: 106px;
+  height: 60px;
+  fill: #cb0d0d;
+}
+.footer-flex {
+  display: flex;
+  gap: 80px;
+}
+.socials-background-footer {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  height: 44px;
+  width: 44px;
+}
+.socials-background-footer:hover {
+  background: var(--first-brand-color);
+}
+.socials-header {
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--white-color);
+  margin-bottom: 20px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
